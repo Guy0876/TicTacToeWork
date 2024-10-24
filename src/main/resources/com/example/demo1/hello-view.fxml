@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.demo1.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <!-- Welcome label at the top of the grid -->
+    <Label fx:id="welcomeText" text="Welcome!" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="3" alignment="CENTER" />
+
+    <!-- Row 1 -->
+    <Button fx:id="button00" text="Button 00" onAction="#clicked00" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <Button fx:id="button01" text="Button 01" onAction="#clicked01" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <Button fx:id="button02" text="Button 02" onAction="#clicked02" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+
+    <!-- Row 2 -->
+    <Button fx:id="button10" text="Button 10" onAction="#clicked10" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <Button fx:id="button11" text="Button 11" onAction="#clicked11" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <Button fx:id="button12" text="Button 12" onAction="#clicked12" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+
+    <!-- Row 3 -->
+    <Button fx:id="button20" text="Button 20" onAction="#clicked20" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <Button fx:id="button21" text="Button 21" onAction="#clicked21" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    <Button fx:id="button22" text="Button 22" onAction="#clicked22" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+</GridPane>
