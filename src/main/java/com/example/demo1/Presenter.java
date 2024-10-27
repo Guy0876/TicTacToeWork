@@ -38,7 +38,7 @@ public class Presenter {
         }
         // LEGAL MOVE - GUI - update board
 
-        this.view.updateBoard(row,col,getCh());
+        this.view.updateBoard(row,col,getCh());fffff
         char winner = model.checkWin(row,col);
         if(winner != ' ')
             this.view.displayMessage("THE WINNER IS: " + winner);
