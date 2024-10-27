@@ -15,7 +15,7 @@ public class Model {
     }
     public boolean isLegal(int row,int col)
     {
-        return (row < ROWS && row >= 0 && col < COLS && col >= 0);
+        return (row < ROWS && row >= 0 && col < COLS && col >= 0 && board[row][col] == ' ');
     }
     public boolean isBoardFull() {
         for (int i = 0; i < ROWS; i++) {
